@@ -1,0 +1,73 @@
+.section {
+  padding: var(--section-y) var(--section-x);
+  background: var(--navy-2);
+}
+
+.inner {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 800;
+  margin: 0 0 32px;
+  letter-spacing: 0.5px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.tag {
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  border: 1px solid;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tag[data-color="cyan"] {
+  border-color: rgba(0, 200, 255, 0.4);
+  color: var(--cyan);
+}
+
+.tag[data-color="purple"] {
+  border-color: rgba(139, 61, 255, 0.4);
+  color: var(--purple);
+}
+
+.tag[data-color="magenta"] {
+  border-color: rgba(255, 45, 142, 0.4);
+  color: var(--magenta);
+}
+
+.tag[data-color="white"] {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--white);
+}
+
+.p1 {
+  font-size: clamp(18px, 2.4vw, 24px);
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0 0 28px;
+  text-wrap: pretty;
+}
+
+.p2 {
+  font-size: clamp(16px, 2vw, 20px);
+  color: var(--white);
+  margin: 0 0 6px;
+}
+
+.p3 {
+  font-size: clamp(28px, 4.4vw, 46px);
+  font-weight: 800;
+  margin: 0;
+}

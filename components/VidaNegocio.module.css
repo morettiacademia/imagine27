@@ -1,0 +1,51 @@
+.section {
+  padding: var(--section-y) var(--section-x);
+  background: linear-gradient(135deg, var(--navy-2), var(--navy));
+}
+
+.inner {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(24px, 3.6vw, 38px);
+  font-weight: 800;
+  margin: 0 0 6px;
+  text-wrap: pretty;
+}
+
+.subtitle {
+  font-size: clamp(18px, 2.6vw, 26px);
+  font-weight: 700;
+  margin: 0 0 32px;
+  color: var(--coral);
+  text-wrap: pretty;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--ink);
+  margin: 0 0 32px;
+  text-wrap: pretty;
+}
+
+.statement {
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 800;
+  margin: 0 0 36px;
+  text-wrap: pretty;
+}
+
+.cta {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--coral), var(--magenta));
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}

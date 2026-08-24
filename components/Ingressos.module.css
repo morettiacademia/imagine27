@@ -1,0 +1,182 @@
+.section {
+  padding: var(--section-y) var(--section-x);
+  background: var(--navy);
+}
+
+.inner {
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--cyan);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+
+.lead {
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.card {
+  padding: 36px 28px;
+  border-radius: 24px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card[data-color="cyan"] {
+  background: rgba(0, 200, 255, 0.05);
+  border-color: rgba(0, 200, 255, 0.3);
+}
+
+.card[data-color="magenta"] {
+  background: linear-gradient(160deg, rgba(255, 45, 142, 0.08), rgba(139, 61, 255, 0.08));
+  border-color: var(--magenta);
+  transform: translateY(-8px);
+}
+
+.card[data-color="coral"] {
+  background: linear-gradient(160deg, rgba(0, 200, 255, 0.08), rgba(255, 45, 142, 0.1), rgba(139, 61, 255, 0.1));
+  border-color: var(--coral);
+  box-shadow: 0 20px 60px rgba(255, 107, 77, 0.15);
+}
+
+.badge {
+  position: absolute;
+  top: -14px;
+  left: 28px;
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.badge[data-color="magenta"] {
+  background: var(--magenta);
+}
+
+.badge[data-color="coral"] {
+  background: linear-gradient(90deg, var(--coral), var(--magenta));
+}
+
+.ticketName {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.priceLabel {
+  font-size: 12px;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.benefit {
+  font-size: 13.5px;
+  color: var(--ink);
+  display: flex;
+  gap: 8px;
+}
+
+.benefit:first-child {
+  color: var(--white);
+}
+
+.cta {
+  margin-top: auto;
+  text-align: center;
+  padding: 14px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cta[data-style="outline"] {
+  background: rgba(0, 200, 255, 0.15);
+  border: 1px solid var(--cyan);
+  color: var(--white);
+}
+
+.cta[data-style="solid"] {
+  background: var(--magenta);
+  color: var(--white);
+}
+
+.cta[data-style="gradient"] {
+  background: linear-gradient(90deg, var(--coral), var(--magenta));
+  color: var(--white);
+}
+
+.trustBar {
+  max-width: 900px;
+  margin: 56px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 32px;
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.trustItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.trustItem {
+  font-size: 13px;
+  color: var(--ink);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
