@@ -52,7 +52,9 @@ atualizados quando disponíveis (ver `lib/data.ts` e o handoff original):
 
 ## Logo
 
-O lockup "IMAGIN" + barras coloridas em `components/Logo.tsx` é uma
-recriação em CSS do logotipo (sem arquivo vetorial disponível no handoff).
-Caso a Academia da Magia forneça um arquivo de logo oficial, substitua o
-componente para usar a imagem real.
+`components/Logo.tsx` usa o arquivo oficial do logotipo
+(`public/brand/imagine-wordmark-light.png`, recortado e com fundo removido
+a partir do material enviado pelo cliente), reaproveitado em três tamanhos
+(nav, hero, footer) via CSS. `imagine-wordmark-dark.png` (versão com
+letras em navy, para fundos claros) também está em `public/brand/` para uso
+futuro em materiais fora do site.

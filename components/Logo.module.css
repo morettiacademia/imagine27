@@ -1,16 +1,4 @@
 .logo {
-  display: inline-flex;
-  align-items: flex-end;
-  font-weight: 800;
-  line-height: 0.9;
-}
-
-.bars {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bar {
-  border-radius: 2px;
+  display: block;
+  object-fit: contain;
 }
