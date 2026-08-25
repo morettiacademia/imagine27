@@ -1,4 +1,7 @@
 .logo {
   display: block;
-  object-fit: contain;
+  width: auto;
+  max-width: none;
+  flex-shrink: 0;
+  aspect-ratio: 1200 / 231;
 }
