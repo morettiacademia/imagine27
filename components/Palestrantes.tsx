@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./Palestrantes.module.css";
 import { SPEAKERS } from "@/lib/data";
 
@@ -14,10 +15,15 @@ export default function Palestrantes() {
         <div className={styles.grid}>
           {SPEAKERS.map((speaker) => (
             <div key={speaker.name} className={styles.card}>
-              <div
-                className={styles.avatar}
-                style={{ background: speaker.avatarGradient }}
-              />
+              <div className={styles.avatarWrap}>
+                <Image
+                  src={speaker.photo}
+                  alt={speaker.name}
+                  fill
+                  sizes="64px"
+                  className={styles.avatar}
+                />
+              </div>
               <div className={styles.name}>{speaker.name}</div>
               <div
                 className={styles.specialty}

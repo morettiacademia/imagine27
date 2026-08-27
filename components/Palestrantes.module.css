@@ -42,11 +42,17 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.avatar {
+.avatarWrap {
+  position: relative;
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  overflow: hidden;
   margin-bottom: 20px;
+}
+
+.avatar {
+  object-fit: cover;
 }
 
 .name {
