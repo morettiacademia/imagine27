@@ -10,6 +10,7 @@ import Experiencia from "@/components/Experiencia";
 import Timeline from "@/components/Timeline";
 import Palestrantes from "@/components/Palestrantes";
 import Ingressos from "@/components/Ingressos";
+import MapaSetores from "@/components/MapaSetores";
 import Programacao from "@/components/Programacao";
 import Faq from "@/components/Faq";
 import Patrocinadores from "@/components/Patrocinadores";
@@ -32,6 +33,7 @@ export default function Home() {
         <Timeline />
         <Palestrantes />
         <Ingressos />
+        <MapaSetores />
         <Programacao />
         <Faq />
         <Patrocinadores />

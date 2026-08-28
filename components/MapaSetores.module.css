@@ -1,0 +1,130 @@
+.section {
+  padding: 100px var(--section-x) 110px;
+  background: var(--navy);
+}
+
+.inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--purple);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.head h2 {
+  font-size: clamp(24px, 3.4vw, 36px);
+  font-weight: 800;
+  margin: 0 0 12px;
+  text-wrap: pretty;
+}
+
+.head p {
+  font-size: 15px;
+  color: var(--ink);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.stage {
+  padding: 22px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 16px;
+}
+
+.vip {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--coral), var(--magenta));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vipLabel {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--white);
+  white-space: nowrap;
+  padding: 16px 0;
+}
+
+.tier {
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.imagine {
+  grid-column: 2;
+  grid-row: 1;
+  background: linear-gradient(90deg, var(--coral), var(--magenta));
+  color: var(--white);
+}
+
+.inspire {
+  grid-column: 2;
+  grid-row: 2;
+  background: var(--magenta);
+  color: var(--white);
+}
+
+.spark {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  background: var(--cyan);
+  color: var(--navy);
+}
+
+.footer {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.caption {
+  font-size: 12px;
+  color: var(--ink);
+  margin: 0;
+}
