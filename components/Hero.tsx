@@ -1,6 +1,11 @@
 import Logo from "./Logo";
 import styles from "./Hero.module.css";
-import { CTA_LABEL, INFO_STRIP, LOTE_LABEL } from "@/lib/data";
+import {
+  HERO_CTA_LABEL,
+  HERO_CTA_SECONDARY_LABEL,
+  INFO_STRIP,
+  LOTE_LABEL,
+} from "@/lib/data";
 
 export default function Hero() {
   return (
@@ -11,28 +16,28 @@ export default function Hero() {
       <div className={styles.rayRight} />
 
       <div className={styles.content}>
-        <div className={styles.dateLine}>15 E 16 DE MAIO DE 2027 · BARUERI, SP</div>
+        <div className={styles.dateLine}>15 E 16 DE MAIO DE 2027 · ALPHAVILLE, SP</div>
         <div className={styles.logoWrap}>
           <Logo variant="hero" />
         </div>
         <div className={styles.subLabel}>MAGIC MAKERS AO VIVO 2027</div>
 
-        <h1 className={styles.h1}>O mundo está acelerando.</h1>
+        <h1 className={styles.h1}>Imagine novos caminhos.</h1>
         <h2 className={`${styles.h2} gradient-text`}>
-          Você não precisa correr sem saber para onde está indo.
+          Novas possibilidades. Novos futuros.
         </h2>
         <p className={styles.lead}>
-          Dois dias para entender o que está mudando, escolher o que
-          realmente importa e imaginar o negócio e a vida que você quer
-          construir.
+          Dois dias para ampliar perspectivas, criar conexões e descobrir
+          novas possibilidades para o seu negócio e para a vida que você
+          quer construir.
         </p>
 
         <div className={styles.ctas}>
           <a href="#ingressos" className="btn btn-primary">
-            {CTA_LABEL} →
+            {HERO_CTA_LABEL} →
           </a>
-          <a href="#tese" className={styles.secondaryLink}>
-            Descobrir o IMAGINE ↓
+          <a href="#experiencia" className={styles.secondaryLink}>
+            {HERO_CTA_SECONDARY_LABEL} ↓
           </a>
         </div>
         <div className={styles.scarcity}>

@@ -28,7 +28,7 @@ export default function Footer() {
             <div className={styles.address}>
               Apogeo Nobre Alphaville
               <br />
-              Av. Tamboré, 1009 — Barueri, SP
+              Av. Tamboré, 1009 — Alphaville, SP
             </div>
           </div>
         </div>

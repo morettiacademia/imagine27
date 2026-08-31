@@ -1,4 +1,6 @@
 export const CTA_LABEL = "GARANTIR MEU INGRESSO";
+export const HERO_CTA_LABEL = "QUERO VIVER O IMAGINE";
+export const HERO_CTA_SECONDARY_LABEL = "Conheça as experiências";
 export const LOTE_LABEL = "Lote 0";
 
 export const NAV_LINKS = [
@@ -11,27 +13,31 @@ export const NAV_LINKS = [
 
 export const INFO_STRIP = [
   { label: "QUANDO", value: "15 e 16 de maio de 2027" },
-  { label: "ONDE", value: "Apogeo Nobre Alphaville, Barueri - SP" },
+  { label: "ONDE", value: "Apogeo Nobre Alphaville, Alphaville - SP" },
   { label: "PARA QUEM", value: "Agentes e profissionais do turismo" },
   { label: "EDIÇÃO", value: "5ª · Academia da Magia" },
 ];
 
-export const TENSION_TAGS = [
-  { label: "Mais tecnologia", color: "cyan" },
-  { label: "Mais informação", color: "cyan" },
-  { label: "Mais ferramentas", color: "purple" },
-  { label: "Mais IA", color: "purple" },
-  { label: "Mais estratégias", color: "magenta" },
-  { label: "Mais conteúdo", color: "magenta" },
-  { label: "Mais possibilidades", color: "white" },
+export const EDITION_HIGHLIGHTS = [
+  { label: "Profissionais", color: "cyan" },
+  { label: "Ideias", color: "purple" },
+  { label: "Experiências", color: "magenta" },
+  { label: "Histórias", color: "white" },
 ] as const;
 
 export const O_QUE_E_STATS = [
-  { big: "2", label: "dias de imersão" },
-  { title: "Conteúdo", label: "transformador" },
-  { title: "Conexões", label: "reais" },
-  { title: "Experiências", label: "inesquecíveis" },
+  { big: "2", label: "dias de imersão", color: "cyan" },
+  { title: "Conteúdo", label: "transformador", color: "purple" },
+  { title: "Conexões", label: "reais", color: "magenta" },
+  { title: "Experiências", label: "inesquecíveis", color: "coral" },
 ];
+
+export const EXPERIENCE_FORCES = [
+  { label: "Conteúdo", color: "cyan" },
+  { label: "Relacionamento", color: "purple" },
+  { label: "Experiência", color: "magenta" },
+  { label: "Comunidade", color: "coral" },
+] as const;
 
 export const PILARES = [
   {
@@ -40,7 +46,7 @@ export const PILARES = [
     shape: "ring",
     eyebrow: "INTELIGÊNCIA",
     title: "Entender",
-    text: "Compreender o novo mundo: IA, tecnologia, dados, mercado e comportamento para tomar decisões melhores.",
+    text: "Compreender o novo mundo: IA, tecnologia, dados, mercado e comportamento para tomar decisões melhores e enxergar novos caminhos com mais clareza.",
     word: "ENTENDER.",
   },
   {
@@ -49,7 +55,7 @@ export const PILARES = [
     shape: "diamond",
     eyebrow: "ESTRATÉGIA",
     title: "Escolher",
-    text: "Decidir onde colocar energia entre tudo aquilo que você poderia fazer.",
+    text: "Nem toda possibilidade precisa virar prioridade. Crescer também significa decidir onde colocar sua energia, seu tempo e sua atenção entre tudo aquilo que você poderia fazer. Imaginar abre possibilidades. Escolher transforma possibilidades em decisões.",
     word: "ESCOLHER.",
   },
   {
@@ -58,7 +64,7 @@ export const PILARES = [
     shape: "dot",
     eyebrow: "PROPÓSITO",
     title: "Direcionar",
-    text: "Que negócio quero construir? Que vida esse negócio está construindo para mim?",
+    text: "Que negócio quero construir? Que vida esse negócio está construindo para mim? Direcionar é dar sentido a cada escolha, para que o caminho leve a algum lugar que valha a pena chegar.",
     word: "DIRECIONAR.",
   },
   {
@@ -67,7 +73,7 @@ export const PILARES = [
     shape: "sparkle",
     eyebrow: "POSSIBILIDADES",
     title: "Transformar",
-    text: "E se fosse possível criar algo que ainda não existe?",
+    text: "E se fosse possível criar algo que ainda não existe? Transformar é dar o primeiro passo: sair da possibilidade imaginada para o futuro construído.",
     word: "TRANSFORMAR.",
   },
 ] as const;
@@ -93,7 +99,7 @@ export const TIMELINE = [
   { name: "MAGIC MAKERS AO VIVO", note: "O nascimento", color: "blue", current: false },
   { name: "RELOADED", note: "A renovação", color: "cyan", current: false },
   { name: "FIRE", note: "A energia", color: "purple", current: false },
-  { name: "ROCKET", note: "A aceleração", color: "coral", current: false },
+  { name: "ROCKET", note: "O impulso", color: "coral", current: false },
   { name: "IMAGINE", note: "A direção", color: "gradient", current: true },
 ] as const;
 
@@ -107,8 +113,8 @@ export const SPEAKERS = [
   },
   {
     name: "Joice Ferreira",
-    specialty: "TURISMO, EXPERIÊNCIA E CONHECIMENTO DE MERCADO",
-    bio: "Mais de 30 anos de experiência no turismo, fundadora da Magic Blue Turismo em 2010. Traz o conhecimento de quem vive na prática os desafios da profissão.",
+    specialty: "TURISMO, EXPERIÊNCIA E EXCELÊNCIA",
+    bio: "Há mais de 30 anos no mercado de Orlando, fundadora da Magic Blue Turismo, une vivência prática, conhecimento de mercado e excelência para inspirar e formar profissionais capazes de encantar pessoas por meio do turismo.",
     photo: "/speakers/joice-ferreira.jpg",
     color: "cyan",
   },
@@ -131,10 +137,8 @@ export const TICKETS = [
     featured: false,
     badge: null,
     benefits: [
-      "Acesso aos 2 dias de evento",
-      "Conteúdos e palestras",
-      "Materiais digitais",
-      "Networking com participantes",
+      "Kit de boas-vindas SPARK",
+      "Acesso completo à programação dos 2 dias",
     ],
     ctaStyle: "outline",
   },
@@ -147,10 +151,10 @@ export const TICKETS = [
     featured: true,
     badge: "MAIS ESCOLHIDO",
     benefits: [
-      "Tudo do ingresso SPARK",
-      "Assentos em área premium",
-      "Experiências exclusivas",
-      "Certificado digital",
+      "Kit de boas-vindas INSPIRE",
+      "Almoço nos 2 dias de evento",
+      "Snack Box exclusivo",
+      "Sessão de fotos executiva",
     ],
     ctaStyle: "solid",
   },
@@ -164,10 +168,14 @@ export const TICKETS = [
     premium: true,
     badge: "EXPERIÊNCIA COMPLETA",
     benefits: [
-      "Tudo do ingresso INSPIRE",
-      "Acesso às experiências premium",
-      "Áreas e conteúdos exclusivos",
-      "Brindes e surpresas especiais",
+      "Kit de boas-vindas IMAGINE",
+      "Almoço nos 2 dias de evento",
+      "Assentos próximos ao palco",
+      "Área VIP exclusiva com acesso nos 2 dias",
+      "Happy Hour/Coquetel exclusivo no fim do dia 1",
+      "Sessão de fotos executiva",
+      "Snack Box",
+      "Mesa de snacks exclusiva nos 2 dias",
     ],
     ctaStyle: "gradient",
   },
@@ -208,7 +216,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Onde será realizado o evento?",
-    a: "No Apogeo Nobre Alphaville, Av. Tamboré, 1009 — Tamboré, Barueri - SP. As informações completas de acesso serão enviadas aos participantes.",
+    a: "No Apogeo Nobre Alphaville, Av. Tamboré, 1009, Alphaville - SP. As informações completas de acesso serão enviadas aos participantes.",
   },
   {
     q: "Posso parcelar meu ingresso?",

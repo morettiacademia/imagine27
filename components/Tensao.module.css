@@ -9,11 +9,26 @@
   text-align: center;
 }
 
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--cyan);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
 .title {
   font-size: clamp(26px, 4vw, 42px);
   font-weight: 800;
   margin: 0 0 32px;
   letter-spacing: 0.5px;
+  line-height: 1.25;
+}
+
+.emphasis {
+  font-size: clamp(30px, 4.8vw, 50px);
+  display: inline-block;
+  margin-top: 6px;
 }
 
 .tags {
@@ -63,11 +78,12 @@
 .p2 {
   font-size: clamp(16px, 2vw, 20px);
   color: var(--white);
-  margin: 0 0 6px;
+  margin: 0 0 12px;
+  text-wrap: pretty;
 }
 
 .p3 {
   font-size: clamp(28px, 4.4vw, 46px);
   font-weight: 800;
-  margin: 0;
+  margin: 12px 0 0;
 }

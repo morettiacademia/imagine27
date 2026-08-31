@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "IMAGINE · Magic Makers Ao Vivo 2027",
   description:
-    "15 e 16 de maio de 2027, em Barueri - SP. Dois dias para entender o que está mudando, escolher o que realmente importa e imaginar o negócio e a vida que você quer construir. Um evento da Academia da Magia para agentes de viagens e profissionais do turismo.",
+    "15 e 16 de maio de 2027, em Alphaville - SP. Dois dias para ampliar perspectivas, criar conexões e descobrir novas possibilidades para o seu negócio e para a vida que você quer construir. Um evento da Academia da Magia para agentes de viagens e profissionais do turismo.",
 };
 
 export default function RootLayout({

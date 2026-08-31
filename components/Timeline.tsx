@@ -13,7 +13,10 @@ export default function Timeline() {
     <section className={styles.section}>
       <div className={styles.inner}>
         <div className={styles.eyebrow}>UMA HISTÓRIA DE TRANSFORMAÇÃO</div>
-        <h2 className={styles.title}>CINCO EDIÇÕES, UMA EVOLUÇÃO.</h2>
+        <h2 className={styles.title}>Quatro edições nos trouxeram até aqui.</h2>
+        <p className={styles.subtitle}>
+          Cada edição representou um momento. Uma energia. Uma transformação.
+        </p>
         <div className={styles.track}>
           <div className={styles.line} />
           {TIMELINE.map((edition) => (
@@ -36,8 +39,10 @@ export default function Timeline() {
           ))}
         </div>
         <p className={styles.footer}>
-          Depois de acelerar, chegou a hora de escolher para onde queremos
-          ir.
+          Agora chegamos à quinta. E talvez a pergunta mais importante não
+          seja apenas o que já construímos.
+          <br />
+          Mas: <span className="gradient-text">o que ainda podemos imaginar?</span>
         </p>
       </div>
     </section>

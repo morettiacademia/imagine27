@@ -6,18 +6,24 @@ export default function SecaoIA() {
     <section className={styles.section}>
       <div className={styles.glow} />
       <div className={styles.inner}>
-        <h2 className={styles.title}>A IA ESTÁ MUDANDO O JOGO.</h2>
-        <h3 className={styles.subtitle}>Mas ela não precisa tirar você dele.</h3>
+        <h2 className={styles.title}>
+          Use a tecnologia para ampliar o que só você pode criar.
+        </h2>
+        <h3 className={styles.subtitle}>
+          Tecnologia não substitui visão. Ela amplia possibilidades.
+        </h3>
         <p className={styles.lead}>
-          A tecnologia assumirá cada vez mais tarefas. Ótimo — porque isso
-          pode nos permitir dedicar mais energia ao que realmente importa.
+          A inteligência artificial está transformando a forma como
+          trabalhamos, criamos e tomamos decisões.
         </p>
         <div className={styles.quoteCard}>
           <p className={styles.quote1}>
-            Deixe para a máquina aquilo que a máquina pode fazer.
+            Use a tecnologia para ganhar tempo, ampliar sua capacidade,
+            organizar processos e transformar ideias em ação.
           </p>
           <p className={`${styles.quote2} gradient-text`}>
-            Torne-se extraordinário naquilo que só um ser humano pode fazer.
+            E preserve para você aquilo que nenhuma ferramenta pode decidir:
+            o que vale a pena construir.
           </p>
         </div>
         <div className={styles.skills}>

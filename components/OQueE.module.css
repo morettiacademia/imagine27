@@ -39,30 +39,64 @@
 .statGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 32px 28px;
 }
 
 .stat {
-  padding: 26px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 4px 0 4px 20px;
+  border-left: 2px solid;
+}
+
+.stat[data-color="cyan"] {
+  border-color: var(--cyan);
+}
+
+.stat[data-color="purple"] {
+  border-color: var(--purple);
+}
+
+.stat[data-color="magenta"] {
+  border-color: var(--magenta);
+}
+
+.stat[data-color="coral"] {
+  border-color: var(--coral);
 }
 
 .statBig {
-  font-size: 30px;
+  font-size: clamp(40px, 6vw, 56px);
   font-weight: 800;
-  color: var(--cyan);
+  line-height: 1;
 }
 
 .statTitle {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--white);
+  font-size: clamp(20px, 2.6vw, 26px);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.stat[data-color="cyan"] .statBig,
+.stat[data-color="cyan"] .statTitle {
+  color: var(--cyan);
+}
+
+.stat[data-color="purple"] .statBig,
+.stat[data-color="purple"] .statTitle {
+  color: var(--purple);
+}
+
+.stat[data-color="magenta"] .statBig,
+.stat[data-color="magenta"] .statTitle {
+  color: var(--magenta);
+}
+
+.stat[data-color="coral"] .statBig,
+.stat[data-color="coral"] .statTitle {
+  color: var(--coral);
 }
 
 .statLabel {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink);
-  margin-top: 6px;
+  margin-top: 8px;
 }

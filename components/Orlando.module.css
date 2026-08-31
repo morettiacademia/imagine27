@@ -5,6 +5,21 @@
   overflow: hidden;
 }
 
+.bgPhoto {
+  position: absolute;
+  inset: 0;
+  background-image: url("/assets/evento-4.jpg");
+  background-size: cover;
+  background-position: center 35%;
+  opacity: 0.16;
+}
+
+.bgFade {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 50%, rgba(10, 16, 64, 0.3) 0%, var(--navy) 78%);
+}
+
 .ray {
   position: absolute;
   right: -15%;
