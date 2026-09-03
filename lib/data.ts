@@ -141,6 +141,7 @@ export const TICKETS = [
       "Acesso completo à programação dos 2 dias",
     ],
     ctaStyle: "outline",
+    checkoutUrl: "https://pay.hotmart.com/A107452607L?off=y67b77ji",
   },
   {
     key: "inspire",
@@ -157,6 +158,7 @@ export const TICKETS = [
       "Sessão de fotos executiva",
     ],
     ctaStyle: "solid",
+    checkoutUrl: "https://pay.hotmart.com/A107452607L?off=iqfd32ix",
   },
   {
     key: "imagine",
@@ -178,6 +180,7 @@ export const TICKETS = [
       "Mesa de snacks exclusiva nos 2 dias",
     ],
     ctaStyle: "gradient",
+    checkoutUrl: "https://pay.hotmart.com/A107452607L?off=f6ag4cv2",
   },
 ] as const;
 

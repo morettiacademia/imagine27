@@ -47,7 +47,13 @@ export default function Ingressos() {
                   </li>
                 ))}
               </ul>
-              <a href="#" className={styles.cta} data-style={ticket.ctaStyle}>
+              <a
+                href={ticket.checkoutUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.cta}
+                data-style={ticket.ctaStyle}
+              >
                 GARANTIR INGRESSO
               </a>
             </div>
