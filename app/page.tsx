@@ -9,6 +9,7 @@ import Orlando from "@/components/Orlando";
 import Experiencia from "@/components/Experiencia";
 import Timeline from "@/components/Timeline";
 import Palestrantes from "@/components/Palestrantes";
+import PorQueImagine from "@/components/PorQueImagine";
 import Ingressos from "@/components/Ingressos";
 import MapaSetores from "@/components/MapaSetores";
 import Programacao from "@/components/Programacao";
@@ -32,6 +33,7 @@ export default function Home() {
         <Experiencia />
         <Timeline />
         <Palestrantes />
+        <PorQueImagine />
         <Ingressos />
         <MapaSetores />
         <Programacao />
