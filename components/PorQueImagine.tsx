@@ -61,7 +61,7 @@ export default function PorQueImagine() {
         <Reveal>
           <p className={styles.lead}>
             Durante dois dias, você sai da rotina para olhar o seu negócio
-            de outro lugar — e volta com mais clareza sobre para onde quer
+            de outro lugar, e volta com mais clareza sobre para onde quer
             ir.
           </p>
         </Reveal>
@@ -77,7 +77,7 @@ export default function PorQueImagine() {
         <Reveal>
           <p className={styles.lead}>
             Você vai estar entre profissionais que entendem, na prática, o
-            que é transformar a paixão por Orlando em negócio — e que
+            que é transformar a paixão por Orlando em negócio, e que
             também estão em busca do próximo passo.
           </p>
         </Reveal>

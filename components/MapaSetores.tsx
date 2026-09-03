@@ -27,7 +27,7 @@ export default function MapaSetores() {
         <div className={styles.footer}>
           <div className={styles.arrow}>↓</div>
           <p className={styles.caption}>
-            Mapa ilustrativo — a disposição final dos setores será confirmada
+            Mapa ilustrativo, a disposição final dos setores será confirmada
             antes do evento.
           </p>
         </div>

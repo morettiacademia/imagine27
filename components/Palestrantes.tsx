@@ -42,7 +42,7 @@ export default function Palestrantes() {
             execução, Joice a essência do turismo, Paulo a estratégia.
             Juntos constroem a Academia da Magia com um propósito: ajudar
             profissionais do turismo a construírem negócios melhores sem
-            perder o que torna essa profissão extraordinária — as pessoas,
+            perder o que torna essa profissão extraordinária, as pessoas,
             as experiências e as conexões humanas.
           </p>
         </div>

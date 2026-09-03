@@ -13,7 +13,7 @@ export const NAV_LINKS = [
 
 export const INFO_STRIP = [
   { label: "QUANDO", value: "15 e 16 de maio de 2027" },
-  { label: "ONDE", value: "Apogeo Nobre Alphaville, Alphaville - SP" },
+  { label: "ONDE", value: "Apogeo Nobre Alphaville, Alphaville, SP" },
   { label: "PARA QUEM", value: "Agentes e profissionais do turismo" },
   { label: "EDIÇÃO", value: "5ª · Academia da Magia" },
 ];
@@ -191,7 +191,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Para quem é o evento?",
-    a: "Para agentes de viagens, donos de agências, empreendedores e profissionais do turismo que desejam construir negócios mais estruturados, estratégicos e preparados para as transformações do mercado — do iniciante ao operador consolidado.",
+    a: "Para agentes de viagens, donos de agências, empreendedores e profissionais do turismo que desejam construir negócios mais estruturados, estratégicos e preparados para as transformações do mercado, do iniciante ao operador consolidado.",
   },
   {
     q: "Preciso ser aluno da Academia da Magia para participar?",
@@ -199,7 +199,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "O evento será somente sobre Orlando?",
-    a: "Não. Orlando faz parte da nossa história e estará naturalmente presente, mas o Magic Makers vai muito além de um destino específico — falaremos sobre negócios, vendas, estratégia, inovação, tecnologia, IA, gestão, propósito e o futuro do turismo.",
+    a: "Não. Orlando faz parte da nossa história e estará naturalmente presente, mas o Magic Makers vai muito além de um destino específico, falaremos sobre negócios, vendas, estratégia, inovação, tecnologia, IA, gestão, propósito e o futuro do turismo.",
   },
   {
     q: "O IMAGINE é um evento sobre Inteligência Artificial?",
@@ -215,15 +215,15 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Os ingressos são limitados? O preço pode aumentar?",
-    a: "Sim. A capacidade total e algumas categorias têm disponibilidade limitada, e a venda é organizada em lotes — os valores podem aumentar conforme a virada. Garantir seu ingresso antecipadamente assegura a categoria e o valor do lote atual.",
+    a: "Sim. A capacidade total e algumas categorias têm disponibilidade limitada, e a venda é organizada em lotes, os valores podem aumentar conforme a virada. Garantir seu ingresso antecipadamente assegura a categoria e o valor do lote atual.",
   },
   {
     q: "Onde será realizado o evento?",
-    a: "No Apogeo Nobre Alphaville, Av. Tamboré, 1009, Alphaville - SP. As informações completas de acesso serão enviadas aos participantes.",
+    a: "No Apogeo Nobre Alphaville, Av. Tamboré, 1009, Alphaville, SP. As informações completas de acesso serão enviadas aos participantes.",
   },
   {
     q: "Posso parcelar meu ingresso?",
-    a: "Sim — as condições de parcelamento disponíveis serão apresentadas antes da conclusão da compra.",
+    a: "Sim, as condições de parcelamento disponíveis serão apresentadas antes da conclusão da compra.",
   },
   {
     q: "O ingresso é individual? Posso transferir para outra pessoa?",
@@ -231,10 +231,10 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Haverá espaço para networking?",
-    a: 'Sim — e não apenas como intervalo entre palestras. Conexões humanas fazem parte do conceito do IMAGINE: a experiência é pensada para estimular encontros, conversas e aproximação com marcas e parceiros do mercado.',
+    a: 'Sim, e não apenas como intervalo entre palestras. Conexões humanas fazem parte do conceito do IMAGINE: a experiência é pensada para estimular encontros, conversas e aproximação com marcas e parceiros do mercado.',
   },
   {
     q: "Ainda tenho dúvidas. Com quem posso falar?",
-    a: 'Nossa equipe pode ajudar você — use o botão "Falar com a equipe do Magic Makers" abaixo para atendimento direto.',
+    a: 'Nossa equipe pode ajudar você, use o botão "Falar com a equipe do Magic Makers" abaixo para atendimento direto.',
   },
 ];
