@@ -1,7 +1,11 @@
 export const CTA_LABEL = "GARANTIR MEU INGRESSO";
 export const HERO_CTA_LABEL = "QUERO VIVER O IMAGINE";
-export const HERO_CTA_SECONDARY_LABEL = "Conheça as experiências";
 export const LOTE_LABEL = "Lote 0";
+
+// TODO: replace with the real WhatsApp number (digits only, country + area code, e.g. "5511987654321")
+export const WHATSAPP_NUMBER = "5511999999999";
+export const WHATSAPP_MESSAGE =
+  "Olá! Quero saber mais sobre o Magic Makers Ao Vivo · IMAGINE.";
 
 export const NAV_LINKS = [
   { href: "#evento", label: "O Evento" },
@@ -14,7 +18,7 @@ export const NAV_LINKS = [
 export const INFO_STRIP = [
   { label: "QUANDO", value: "15 e 16 de maio de 2027" },
   { label: "ONDE", value: "Apogeo Nobre Alphaville, Alphaville, SP" },
-  { label: "PARA QUEM", value: "Agentes e profissionais do turismo" },
+  { label: "PARA QUEM", value: "Agentes, profissionais do turismo e amantes de Orlando" },
   { label: "EDIÇÃO", value: "5ª · Academia da Magia" },
 ];
 

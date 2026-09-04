@@ -1,5 +1,5 @@
 import styles from "./Ingressos.module.css";
-import { CTA_LABEL, LOTE_LABEL, TICKETS } from "@/lib/data";
+import { LOTE_LABEL, TICKETS } from "@/lib/data";
 
 export default function Ingressos() {
   return (
@@ -58,25 +58,6 @@ export default function Ingressos() {
               </a>
             </div>
           ))}
-        </div>
-
-        <div className={styles.trustBar}>
-          <div className={styles.trustItems}>
-            <span className={styles.trustItem}>
-              <span style={{ color: "var(--cyan)" }}>✓</span>Vagas limitadas
-            </span>
-            <span className={styles.trustItem}>
-              <span style={{ color: "var(--cyan)" }}>✓</span>
-              {LOTE_LABEL} vigente até a próxima virada
-            </span>
-            <span className={styles.trustItem}>
-              <span style={{ color: "var(--cyan)" }}>✓</span>Compra 100%
-              segura
-            </span>
-          </div>
-          <a href="#" className="btn btn-primary btn-sm">
-            {CTA_LABEL} →
-          </a>
         </div>
       </div>
     </section>

@@ -47,7 +47,14 @@ export default function Palestrantes() {
           </p>
         </div>
         <div className={styles.note}>
-          ✨ NOVOS NOMES SERÃO REVELADOS EM BREVE
+          <span className={styles.noteIcon}>✨</span>
+          <div>
+            <div className={styles.noteTitle}>Muito mais gente por vir</div>
+            <p className={styles.noteText}>
+              Estes são os fundadores da Academia da Magia. Novos nomes e
+              muito mais conteúdo serão revelados em breve.
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -152,31 +152,3 @@
   background: linear-gradient(90deg, var(--coral), var(--magenta));
   color: var(--white);
 }
-
-.trustBar {
-  max-width: 900px;
-  margin: 56px auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 28px 32px;
-  border-radius: var(--radius-card);
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.trustItems {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.trustItem {
-  font-size: 13px;
-  color: var(--ink);
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}

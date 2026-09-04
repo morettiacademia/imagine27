@@ -119,20 +119,6 @@
   margin-bottom: 36px;
 }
 
-.secondaryLink {
-  color: var(--white);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  padding-bottom: 4px;
-}
-
-.scarcity {
-  font-size: 13px;
-  color: var(--ink);
-}
-
 .infoStrip {
   position: relative;
   max-width: 1040px;

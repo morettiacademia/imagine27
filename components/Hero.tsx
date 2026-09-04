@@ -1,11 +1,6 @@
 import Logo from "./Logo";
 import styles from "./Hero.module.css";
-import {
-  HERO_CTA_LABEL,
-  HERO_CTA_SECONDARY_LABEL,
-  INFO_STRIP,
-  LOTE_LABEL,
-} from "@/lib/data";
+import { HERO_CTA_LABEL, INFO_STRIP } from "@/lib/data";
 
 export default function Hero() {
   return (
@@ -36,13 +31,6 @@ export default function Hero() {
           <a href="#ingressos" className="btn btn-primary">
             {HERO_CTA_LABEL} →
           </a>
-          <a href="#experiencia" className={styles.secondaryLink}>
-            {HERO_CTA_SECONDARY_LABEL} ↓
-          </a>
-        </div>
-        <div className={styles.scarcity}>
-          {LOTE_LABEL} disponível · valores sujeitos a reajuste na virada de
-          lote
         </div>
       </div>
 
