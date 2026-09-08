@@ -24,8 +24,8 @@ export default function Home() {
         <Tensao />
         <OQueE />
         <Pilares />
-        <Experiencia />
         <Timeline />
+        <Experiencia />
         <Palestrantes />
         <PorQueImagine />
         <Ingressos />
