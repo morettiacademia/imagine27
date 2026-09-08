@@ -37,8 +37,8 @@ export default function Ingressos() {
                 {ticket.name}
               </div>
               <div className={styles.tagline}>{ticket.tagline}</div>
-              <div className={styles.priceLabel}>A partir de</div>
-              <div className={styles.price}>{ticket.price}</div>
+              <div className={styles.installment}>{ticket.installment} *</div>
+              <div className={styles.cashPrice}>Ou {ticket.cashPrice} à vista</div>
               <ul className={styles.benefits}>
                 {ticket.benefits.map((benefit) => (
                   <li key={benefit} className={styles.benefit}>
@@ -59,6 +59,9 @@ export default function Ingressos() {
             </div>
           ))}
         </div>
+        <p className={styles.disclaimer}>
+          * Parcelamento sujeito a juros conforme condições da plataforma de pagamento.
+        </p>
       </div>
     </section>
   );
