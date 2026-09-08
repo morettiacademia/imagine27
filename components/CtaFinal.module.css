@@ -1,0 +1,22 @@
+.section {
+  padding: 100px var(--section-x);
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(24px, 3.6vw, 36px);
+  font-weight: 800;
+  margin: 0 0 20px;
+  text-wrap: pretty;
+}
+
+.cta {
+  display: inline-block;
+  padding: 18px 40px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+  color: var(--white);
+  font-weight: 700;
+  font-size: 15px;
+}
