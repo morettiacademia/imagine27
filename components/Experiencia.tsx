@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "./Experiencia.module.css";
-import { EXPERIENCE_FORCES, GALLERY } from "@/lib/data";
+import {
+  EXPERIENCE_FORCES,
+  GALLERY,
+  PREVIOUS_EDITION_VIDEO_ID,
+  PREVIOUS_EDITION_VIDEO_START,
+} from "@/lib/data";
 
 export default function Experiencia() {
   return (
@@ -31,6 +36,16 @@ export default function Experiencia() {
             Quatro forças capazes de abrir novos caminhos e novas
             possibilidades.
           </p>
+        </div>
+        <div className={styles.videoCaption}>REVEJA A EDIÇÃO ANTERIOR</div>
+        <div className={styles.videoWrap}>
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${PREVIOUS_EDITION_VIDEO_ID}?start=${PREVIOUS_EDITION_VIDEO_START}`}
+            title="Vídeo da edição anterior do Magic Makers Ao Vivo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          />
         </div>
         <div className={styles.gallery}>
           {GALLERY.map((photo) => (
