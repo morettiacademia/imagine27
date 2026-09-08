@@ -7,6 +7,14 @@ export const WHATSAPP_NUMBER = "5511999999999";
 export const WHATSAPP_MESSAGE =
   "Olá! Quero saber mais sobre o Magic Makers Ao Vivo · IMAGINE.";
 
+export const SPONSOR_CTA_LABEL = "QUERO PATROCINAR";
+export const EXHIBITOR_CTA_LABEL = "QUERO EXPOR";
+export const SPONSOR_WHATSAPP_NUMBER = "5511965183613";
+export const SPONSOR_WHATSAPP_MESSAGE =
+  "Olá! Quero saber mais sobre patrocinar o Magic Makers Ao Vivo · IMAGINE.";
+export const EXHIBITOR_WHATSAPP_MESSAGE =
+  "Olá! Quero saber mais sobre expor no Magic Makers Ao Vivo · IMAGINE.";
+
 export const NAV_LINKS = [
   { href: "#evento", label: "O Evento" },
   { href: "#experiencia", label: "Experiência" },

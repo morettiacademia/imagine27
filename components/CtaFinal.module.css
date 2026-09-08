@@ -20,3 +20,28 @@
   font-weight: 700;
   font-size: 15px;
 }
+
+.secondaryCtas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.secondaryCta {
+  display: inline-block;
+  padding: 13px 28px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.secondaryCta:hover {
+  color: var(--white);
+  border-color: var(--cyan);
+}
