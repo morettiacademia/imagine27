@@ -97,6 +97,9 @@ export const GALLERY = [
   { src: "/assets/evento-2.jpg", alt: "Público do Magic Makers Ao Vivo" },
   { src: "/assets/evento-3.jpg", alt: "Experiência do Magic Makers Ao Vivo" },
   { src: "/assets/evento-4.jpg", alt: "Comunidade do Magic Makers Ao Vivo" },
+  { src: "/assets/evento-5.jpg", alt: "Celebração do Magic Makers Ao Vivo" },
+  { src: "/assets/evento-6.jpg", alt: "Personagens no Magic Makers Ao Vivo" },
+  { src: "/assets/evento-7.jpg", alt: "Equipe no palco do Magic Makers Ao Vivo" },
 ];
 
 export const TIMELINE = [
