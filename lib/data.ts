@@ -100,6 +100,9 @@ export const HUMAN_SKILLS = [
   "Imaginação",
 ];
 
+export const PREVIOUS_EDITION_VIDEO_ID = "oIL0a99pnJ4";
+export const PREVIOUS_EDITION_VIDEO_START = 7;
+
 export const GALLERY = [
   { src: "/assets/evento-1.jpg", alt: "Palco do Magic Makers Ao Vivo" },
   { src: "/assets/evento-2.jpg", alt: "Público do Magic Makers Ao Vivo" },
