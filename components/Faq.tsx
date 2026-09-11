@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import styles from "./Faq.module.css";
-import { FAQ_ITEMS } from "@/lib/data";
+import { FAQ_ITEMS, WHATSAPP_MESSAGE, WHATSAPP_NUMBER } from "@/lib/data";
 
 export default function Faq() {
   const [openIndex, setOpenIndex] = useState(0);
+  const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <section id="faq" className={styles.section}>
@@ -37,7 +38,12 @@ export default function Faq() {
           <p className={styles.footerText}>
             Ainda tem dúvidas? Nossa equipe pode ajudar.
           </p>
-          <a href="#" className="btn btn-outline">
+          <a
+            href={whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline"
+          >
             FALAR COM A EQUIPE DO MAGIC MAKERS
           </a>
         </div>
