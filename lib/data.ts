@@ -2,10 +2,9 @@ export const CTA_LABEL = "GARANTIR MEU INGRESSO";
 export const HERO_CTA_LABEL = "QUERO VIVER O IMAGINE";
 export const LOTE_LABEL = "Lote 0";
 
-// TODO: replace with the real WhatsApp number (digits only, country + area code, e.g. "5511987654321")
-export const WHATSAPP_NUMBER = "5511999999999";
+export const WHATSAPP_NUMBER = "5511993675759";
 export const WHATSAPP_MESSAGE =
-  "Olá! Quero saber mais sobre o Magic Makers Ao Vivo · IMAGINE.";
+  "Quero mais informações sobre o Magic Makers Ao Vivo.";
 
 export const SPONSOR_CTA_LABEL = "QUERO PATROCINAR";
 export const EXHIBITOR_CTA_LABEL = "QUERO EXPOR";
