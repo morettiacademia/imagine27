@@ -1,6 +1,6 @@
 export const CTA_LABEL = "GARANTIR MEU INGRESSO";
 export const HERO_CTA_LABEL = "QUERO VIVER O IMAGINE";
-export const LOTE_LABEL = "Lote 0";
+export const LOTE_LABEL = "Lote 1";
 
 export const WHATSAPP_NUMBER = "5511993675759";
 export const WHATSAPP_MESSAGE =
@@ -148,8 +148,8 @@ export const TICKETS = [
     key: "spark",
     name: "SPARK",
     tagline: "Acenda novas possibilidades.",
-    installment: "12x de R$ 77,57",
-    cashPrice: "R$ 750,00",
+    installment: "12x de R$ 93,08",
+    cashPrice: "R$ 900,00",
     color: "cyan",
     featured: false,
     badge: null,
@@ -164,8 +164,8 @@ export const TICKETS = [
     key: "inspire",
     name: "INSPIRE",
     tagline: "Expanda sua visão.",
-    installment: "12x de R$ 160,31",
-    cashPrice: "R$ 1.550,00",
+    installment: "12x de R$ 180,99",
+    cashPrice: "R$ 1.750,00",
     color: "magenta",
     featured: true,
     badge: "MAIS ESCOLHIDO",
@@ -182,8 +182,8 @@ export const TICKETS = [
     key: "imagine",
     name: "IMAGINE ✨",
     tagline: "Transforme possibilidades em realidade.",
-    installment: "12x de R$ 227,53",
-    cashPrice: "R$ 2.200,00",
+    installment: "12x de R$ 258,56",
+    cashPrice: "R$ 2.500,00",
     color: "coral",
     featured: false,
     premium: true,
